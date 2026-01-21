@@ -1,0 +1,1 @@
+const err = new Error("Unexpected token `meta`. Expected jsx identifier at AnonymousFile:1:1"); err.name = "CompilationError"; throw err;

@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.V3gPc3Ui.mjs";function t(e,t){return{customHTMLHeadEnd:`<meta name="apple-itunes-app" content="app-id=6466344514">`,description:`Podcasts are better together. Cooler is a podcast player that makes listening fun and social.`,favicon:`https://framerusercontent.com/assets/smxDmEvqfnCqBNVDGnJO0RX8.png`,robots:`max-image-preview:large`,socialImage:`https://framerusercontent.com/assets/noV1dbu9ddlbs12fvfz0RBpJg.png`,title:`Cooler`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=shared-lib.C_IUbabL.mjs.map

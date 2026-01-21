@@ -24,6 +24,10 @@ export default async function FramerPage({ htmlPath }: FramerPageProps) {
   htmlContent = htmlContent.replace(/href="\.\/"/g, 'href="/"');
   htmlContent = htmlContent.replace(/href="\.\//g, 'href="/');
 
+  // Update copyright year to current year
+  const currentYear = new Date().getFullYear();
+  htmlContent = htmlContent.replace(/© 2025 COOLER/g, `© ${currentYear} COOLER`);
+
   // Extract head content (styles, fonts, links)
   const headMatch = htmlContent.match(/<head[^>]*>([\s\S]*?)<\/head>/i);
   const headContent = headMatch ? headMatch[1] : "";
